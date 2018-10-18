@@ -12,8 +12,8 @@ ui-view对应的页面结构是各个菜单页面主要实现功能的子页面�
 * ys-loading:全局设置在一些延时操作中调用。
 
 ```
- amp_main.loading_show（）
- amp_main.loading_hide（）
+  $rootScope.loading_show（）
+  $rootScope.loading_hide（）
 ```
 
 ### 在menu\_list.js中配置完整菜单后，功能页面的引入还需要下面三个步骤：
@@ -23,7 +23,7 @@ ui-view对应的页面结构是各个菜单页面主要实现功能的子页面�
 2.module依赖\(在amp模块中注入页面实现需要的模块\)
 
 ```
-var ampApp = angular.module('amp', [
+var app = angular.module('app', [
     'ui.router',
     'noi',
     "ampFilters",

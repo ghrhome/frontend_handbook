@@ -15,6 +15,7 @@
 * [前端体验规范](qian-duan-ti-yan-gui-fan.md)
 * [Styled Components：让样式也成为组件](styled-componentsff1a-rang-yang-shi-ye-cheng-wei-zu-jian.md)
 * [版本碎片化](ban-ben-sui-pian-hua.md)
+* [项目结构](xiang-mu-jie-gou.md)
 * [理解页面结构](li-jie-ye-mian-jie-gou.md)
 * [目录配置](mu-lu-pei-zhi.md)
 

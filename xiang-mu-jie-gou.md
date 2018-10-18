@@ -101,5 +101,3 @@ define(["angular",'./sample_view',"./services"],function(angular,viewModule){
 
 
 
-
-

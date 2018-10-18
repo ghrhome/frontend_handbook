@@ -10,4 +10,5 @@
 * [开发及测试工具约定](kai-fa-ji-ce-shi-gong-ju-yue-ding.md)
 * [JS模块化](jsmo-kuai-hua.md)
 * [jQuery插件模版](jquerycha-jian-mo-ban.md)
+* [static to project 说明](static-to-project-shuo-ming.md)
 

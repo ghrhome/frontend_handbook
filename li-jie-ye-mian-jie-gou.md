@@ -2,8 +2,6 @@
 
 ![](/assets/成本-page-layout.jpg)
 
-
-
 上图是主页面的布局结构，其中MainController作为全局模块app的主控制器，主要负责$rootScope作用域，子页面间切换时其生命周期的处理以及curProject等全局变量。
 
 ui-view对应的页面结构是各个菜单页面主要实现功能的子页面。
@@ -11,7 +9,7 @@ ui-view对应的页面结构是各个菜单页面主要实现功能的子页面�
 * toolbar:主要是对应content view页面过滤，查询的实现。
 * content:内容页面
 * right:通常对应页面数据的增加，修改等操作
-* amp-loading:全局设置在一些延时操作中调用。
+* ys-loading:全局设置在一些延时操作中调用。
 
 ```
  amp_main.loading_show（）

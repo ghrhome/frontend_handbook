@@ -1,4 +1,4 @@
-文件/资源命名
+# 文件/资源命名
 
 在 web 项目中，所有的文件名应该都遵循同一命名约定。以可读性而言，减号（-）是用来分隔文件名的不二之选。同时它也是常见的 URL 分隔符（i.e.`//example.com/blog/my-blog-entry`or`//s.example.com/images/big-black-background.jpg`），所以理所当然的，减号应该也是用来分隔资源名称的好选择。
 

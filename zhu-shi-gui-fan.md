@@ -1,5 +1,36 @@
 ### 注释规范
 
+注释是**你自己**与你的小伙伴们了解代码写法和目的的唯一途径。特别是在写一些看似琐碎的无关紧要的代码时，由于记忆点不深刻，注释就变得尤为重要了。
+
+编写自解释代码只是一个**传说**，没有任何代码是可以完全自解释的。而代码注释，则是永远也不嫌多。
+
+当你写注释时一定要注意：不要写你的代码都干了些什么，而要写你的代码为什么要这么写，背后的考量是什么。当然也可以加入所思考问题或是解决方案的链接地址。
+
+**不推荐**
+
+```
+var offset = 0;
+
+if(includeLabels) {
+  // Add offset of 20
+  offset = 20;
+}
+```
+
+**推荐**
+
+```
+var offset = 0;
+
+if(includeLabels) {
+  // If the labels are included we need to have a minimum offset of 20 pixels
+  // We need to set it explicitly because of the following bug: http://somebrowservendor.com/issue-tracker/ISSUE-1
+  offset = 20;
+}
+```
+
+下面格式可以帮助我们写出更好的注释。
+
 `JAVASCRIPT`、`CSS`文件注释需要标明作者、文件版本、创建/修改时间、重大版本修改记录、函数描述、文件版本、创建或者修改时间、功能、作者等信息
 
 /\* \* 注释块 \*/

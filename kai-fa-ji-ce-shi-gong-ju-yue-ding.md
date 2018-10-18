@@ -1,4 +1,4 @@
-# 开发及测试工具约定
+# 开发及测试工具约定（tbd\)
 
 编码格式化。
 
@@ -30,6 +30,4 @@ ESLint 是一个应用广泛的 JavaScript 代码检查工具。本文主要介�
   `@autofix`
 
 [http://www.alloyteam.com/2017/08/13065/](http://www.alloyteam.com/2017/08/13065/)
-
-
 

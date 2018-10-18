@@ -12,6 +12,7 @@
 * [jQuery插件模版](jquerycha-jian-mo-ban.md)
 * [static to project 说明](static-to-project-shuo-ming.md)
 * [Theme-less](theme-less.md)
+* [前端体验规范](qian-duan-ti-yan-gui-fan.md)
 * [Styled Components：让样式也成为组件](styled-componentsff1a-rang-yang-shi-ye-cheng-wei-zu-jian.md)
 * [版本碎片化](ban-ben-sui-pian-hua.md)
 

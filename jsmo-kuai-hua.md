@@ -17,10 +17,6 @@ var module1 = ( function (mod){
 ```
 
 ```
-/**
- * Created by whobird on 2018/4/9.
- */
-
 var pageView=(function($){
     var pageView={};
 
